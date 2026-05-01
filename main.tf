@@ -1,7 +1,7 @@
 resource "aws_vpc" "myapplication_vpc" {
   cidr_block = "192.168.0.0/22"
   tags = {
-    Name = "My_app_VPC_webhook"
+    Name = "My_app_VPC_Rollback"
   }
 }
 
